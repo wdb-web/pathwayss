@@ -1,0 +1,21 @@
+Package: pathways
+Type: Package
+Title: easy to plot pathways and analy mataboli pathwys
+Version: 0.1.4
+Author: Dongbin Wang, Chenchao
+Maintainer: Dongbin Wang<wxmwdb52@gmali.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: AGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0), purrr, tidyr, clusterProfiler, stringr,
+        data.table, mixOmics, enrichplot, randomcoloR, circlize,
+        ComplexHeatmap, ggplot2
+RoxygenNote: 7.1.2
+Suggests: rmarkdown, knitr, testthat
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+NeedsCompilation: no
+Packaged: 2022-03-25 03:01:22 UTC; admin
